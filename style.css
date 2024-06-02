@@ -1,11 +1,21 @@
 body {
     font-family:'Courier New', Courier, monospace;
+    background-color: black;
 }
 
+.card {
+    width: 85%;
+    background-color: pink;
+    margin: 8px auto;
+    border: 2px dotted lightgray;
+    padding: 8px 16px;
+}
 h1 {
-    color: crimson;
+    color: whitesmoke;
     font-family: 'Brush Script MT', cursive;
-    background-color: black;
+    background-color: crimson;
+    text-align: center;
+    padding: 4px;
 }
 
 .welcome {
@@ -13,11 +23,20 @@ h1 {
     color:cornflowerblue;
     font-weight: bolder;
     text-align: center;
+    background-color: whitesmoke;
+    border-bottom: 5px crimson dotted;
 }
 
 .cabra {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin: 0 auto;
+    width: 250px;
+    
+}
+
+.linkei { 
+    text-align: center;
+    font-size: 15px bold;
+    color: black;
+    
 }
